@@ -7,7 +7,6 @@
 import logging
 
 logger = logging.getLogger('logger')
-logging.basicConfig(level=logging.DEBUG)
 
 logger.debug('Debug message.')
 logger.info('Info message.')
